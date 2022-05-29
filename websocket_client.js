@@ -110,6 +110,6 @@ module.exports = class WebsocketClient {
     }
 
     async updateInDatabaseTable(tableName, object){
-        return await this.#sendRequest({ method: "updateInDatabaseTable", tableName: tableName, request: object })
+        return await this.#sendRequest({ method: "updateInDatabaseTable", tableName: tableName, object: object })
     }
 }
