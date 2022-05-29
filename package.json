@@ -1,0 +1,21 @@
+{
+  "name": "infinitedb",
+  "version": "1.1.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaspape/InfiniteDB-nodejs-client.git"
+  },
+  "author": "Lucas Pape",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/lucaspape/InfiniteDB-nodejs-client/issues"
+  },
+  "homepage": "https://github.com/lucaspape/InfiniteDB-nodejs-client#readme",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "websocket": "^1.0.34"
+  }
+}
