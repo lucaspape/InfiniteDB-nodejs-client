@@ -42,4 +42,8 @@ module.exports = class Client {
     async removeFromDatabaseTable(tableName, request){
         return await this.client.removeFromDatabaseTable(tableName, request)
     }
+
+    async updateInDatabaseTable(tableName, object){
+        return await this.client.updateInDatabaseTable(tableName, object)
+    }
 }
