@@ -104,4 +104,8 @@ module.exports = class WebsocketClient {
     async insertToDatabaseTable(tableName, object){
         return await this.#sendRequest({ method: "insertToDatabaseTable", tableName: tableName, object: object })
     }
+
+    async removeFromDatabaseTable(tableName, request){
+        return await this.#sendRequest({ method: "removeFromDatabaseTable", tableName: tableName, request: request })
+    }
 }

@@ -38,4 +38,8 @@ module.exports = class Client {
     async insertToDatabaseTable(tableName, object){
         return await this.client.insertToDatabaseTable(tableName, object)
     }
+
+    async removeFromDatabaseTable(tableName, request){
+        return await this.client.removeFromDatabaseTable(tableName, request)
+    }
 }
